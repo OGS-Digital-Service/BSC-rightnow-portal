@@ -1,0 +1,131 @@
+
+/* change most popular answers font size here: https://nys-ogs.custhelp.com/euf/generated/optimized/1549996761/templates/standard.themes.standard.SITE.css line 133 */
+#rn_PageContent.rn_Home .rn_Module ul li a {
+    float: left; /* leave this float alone */
+    font-size: .65em; /* change to .65em */
+    margin: 2px; /* change to 2px */
+	    font-family: 'ProximaNova', sans-serif; /* add font here */
+}
+/* end font size change */
+
+
+
+
+/* change font at https://nys-ogs.custhelp.com/euf/generated/optimized/1549996761/templates/standard.themes.standard.SITE.css line 101 */
+
+.rn_Module h3, .rn_Module h2 {
+   /* background: #EBEFF5 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQIHWP4DwABAQEANl9ngAAAAABJRU5ErkJggg==) repeat-x scroll 0 0;
+    background: #EBEFF5; */ /* please comment out or remove thisbackground url image */
+    border-bottom: 1px solid #CCC;
+    font-family: 'ProximaNovaBold', sans-serif; /* change the lucida sans and other fonts here for 'ProximaNovaBold' */
+    font-weight: normal;
+    margin-bottom: 8px;
+    padding: 4px;
+
+/* end change font */
+
+
+
+/* change most popular answers link color here: https://nys-ogs.custhelp.com/euf/generated/optimized/1549996761/templates/standard.themes.standard.SITE.css line 57 */
+
+a:link {
+    /* color: #0000CC; */
+}
+/* end link color change */
+
+
+
+
+
+
+/* change topic h3 color and font size at https://nys-ogs.custhelp.com/euf/generated/optimized/1549996761/templates/standard.themes.standard.SITE.css line 21 */
+h3 {
+    
+    font-size: .85em;  /* change this to .85em */
+    line-height: 1.3em;
+}
+/* end change topic h3 color and font size */
+
+
+	
+	
+	
+	
+	
+	
+	
+/* change background color of most popular answers area at	https://nys-ogs.custhelp.com/euf/generated/optimized/1550841120/templates/standard.themes.standard.SITE.css line 100 */
+	
+.rn_Module {
+    background: #EFEFF4;  /* change background color */
+    border: 2px solid #CCC; /* increase border to 2px */
+    clear: both;
+    margin-bottom: 12px;
+    overflow: hidden;
+    padding-bottom: 8px;
+}
+	
+
+	
+	
+	
+	
+	
+	
+/* change font size percentage at 	https://nys-ogs.custhelp.com/euf/generated/optimized/1550841120/templates/standard.themes.standard.SITE.css line 134 */
+	
+#rn_PageContent.rn_Home .rn_AnswersLink {
+    display: inline-block;
+    font-size: 100%; /* change to 100% */
+    font-weight: bold;
+    margin: 10px 0 10px 16px;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/*change selected tab color at	https://nys-ogs.custhelp.com/euf/generated/optimized/1550841120/templates/standard.themes.standard.SITE.css line 174 */
+	
+	a.rn_SelectedTab {
+    background-color: #ac3f14 !important; /* change background color, leave important */
+}
+	
+	
+	
+	
+	
+	
+/* change font size at	https://nys-ogs.custhelp.com/euf/generated/optimized/1550841120/pages/answers/list.themes.standard.css line 97 */
+	
+	
+	.rn_Multiline .rn_Element3 {
+    display: block;
+    font-size: .95em;   /*change to .95em*/
+    line-height: 1.3em;
+}
+
+
+	
+	
+	
+	
+/*	change background color and add border at https://nys-ogs.custhelp.com/euf/generated/optimized/1550841120/templates/standard.themes.standard.SITE.css line 761 */
+	
+	.yui3-skin-sam .yui3-panel .yui3-widget-hd {
+    padding: 8px 28px 8px 8px;
+    min-height: 13px;
+    _height: 13px;
+    color: white;
+    background-color: #f9f9f9; /*change background color to f9f9f9*/
+    border-bottom: 1px #ccc solid; /*add this border*/
+    /* background: -moz-linear-gradient(0% 100% 90deg,#2647a0 7%,#3d67ce 50%,#426fd9 100%); comment our or remove this background */
+    /* background: -webkit-gradient(linear,left bottom,left top,from(#2647a0),color-stop(0.07,#2647a0),color-stop(0.5,#3d67ce),to(#426fd9)); comment out or remove this background*/
+}
+

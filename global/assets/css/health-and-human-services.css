@@ -1,0 +1,156 @@
+.nys-global-header {
+  background-color: #24387e;
+}
+.nys-global-header > ul {
+  background-color: #24387e;
+}
+.nys-global-header > ul a {
+  border-bottom-color: #24387e;
+}
+.nys-global-header > ul a:hover,
+.nys-global-header > ul a:active {
+  background-color: #14214D;
+}
+.nys-global-header > ul ul {
+  background-color: #24387e;
+}
+.nys-global-header.vertical ul li:first-of-type a {
+  border-top-color: #14214D;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+.nys-global-header.vertical ul li:first-of-type ul a {
+  border-top: 0;
+}
+.nys-global-header.vertical a:hover,
+.nys-global-header.vertical a:active {
+  background-color: #14214D;
+}
+@media (min-width: 768px) {
+  .nys-global-header.horizontal.unstacked ul li a:hover,
+  .nys-global-header.horizontal.unstacked ul li a:active {
+    background-color: #14214D;
+  }
+  .nys-global-header.horizontal.unstacked ul li ul > li a:hover,
+  .nys-global-header.horizontal.unstacked ul li ul > li a:active {
+    background-color: #24387e;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .nys-global-header.horizontal.unstacked ul li a:hover,
+  .nys-global-header.horizontal.unstacked ul li a:active, .nys-global-header.horizontal.stacked ul li a:hover,
+  .nys-global-header.horizontal.stacked ul li a:active {
+    background-color: #14214D;
+  }
+  .nys-global-header.horizontal.unstacked ul li ul > li a:hover,
+  .nys-global-header.horizontal.unstacked ul li ul > li a:active, .nys-global-header.horizontal.stacked ul li ul > li a:hover,
+  .nys-global-header.horizontal.stacked ul li ul > li a:active {
+    background-color: #14214D;
+  }
+}
+
+.nys-global-footer {
+  background-color: #f8fafa;
+  position: relative;
+  
+}
+.nys-global-footer ul li a:hover, .nys-global-footer ul li a:active {
+  color: #43285D;
+}
+
+.icon-social-blogger {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-blogger.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-blogger.svg);
+}
+
+.icon-social-delicious {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-delicious.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-delicious.svg);
+}
+
+.icon-social-facebook {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-facebook.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-facebook.svg);
+}
+
+.icon-social-feed {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-feed.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-feed.svg);
+}
+
+.icon-social-flickr {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-flickr.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-flickr.svg);
+}
+
+.icon-social-foursqaure {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-foursqaure.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-foursqaure.svg);
+}
+
+.icon-social-github {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-github.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-github.svg);
+}
+
+.icon-social-google-plus {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-google-plus.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-google-plus.svg);
+}
+
+.icon-social-instagram {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-instagram.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-instagram.svg);
+}
+
+.icon-social-linkedin {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-linkedin.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-linkedin.svg);
+}
+
+.icon-social-mail {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-mail.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-mail.svg);
+}
+
+.icon-social-pinterest {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-pinterest.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-pinterest.svg);
+}
+
+.icon-social-reddit {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-reddit.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-reddit.svg);
+}
+
+.icon-social-share {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-share.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-share.svg);
+}
+
+.icon-social-tumblr {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-tumblr.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-tumblr.svg);
+}
+
+.icon-social-twitter {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-twitter.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-twitter.svg);
+}
+
+.icon-social-vimeo {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-vimeo.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-vimeo.svg);
+}
+
+.icon-social-yelp {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-yelp.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-yelp.svg);
+}
+
+.icon-social-youtube {
+  background-image: url(../../icons/social/nys-brand-health-and-human-services/icon-social-youtube.png);
+  background-image: linear-gradient(transparent, transparent), url(../../icons/social/nys-brand-health-and-human-services/icon-social-youtube.svg);
+}
+
+/*# sourceMappingURL=health-and-human-services.css.map */
